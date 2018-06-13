@@ -1,0 +1,137 @@
+.navbar {
+    padding: 0;
+}
+html, body {
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+* {
+    outline: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.no-margin {
+    margin: 0 !important;
+}
+.no-padding {
+    padding: 0 !important;
+}
+.no-padding-right {
+    padding-right: 0 !important;
+}
+.no-padding-left {
+    padding-left: 0 !important;
+}
+.upper {
+    text-transform: uppercase;
+}
+.bold {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+a, a:focus, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+a.link {
+    text-decoration: underline;
+}
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-top: 6px solid #424143;
+    display: none;
+}
+.navbar-header .logo {
+    max-width: 180px;
+    margin: 0 50px 0 100px;
+    padding: 10px;
+}
+.main-menu {
+    float: none;
+    display: inline-block;
+    width: 64%;
+    text-align: center;
+}
+.navbar-nav>li {
+    float: none;
+    display: inline-block;
+}
+.navbar-nav>li>a {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.navbar-default .navbar-nav>li>a:hover, 
+.navbar-default .navbar-nav>li>a.active {
+    color: #8b169c;
+    background-color: transparent;
+}
+.navbar-nav>li>a:focus {
+    outline: none;
+}
+
+.footer {
+    position: fixed;
+    z-index: 999;
+    color: #ffffff;
+    bottom: 30px;
+}
+
+.footer li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer .rrss {
+    border-top: 1px solid;
+    padding-top: 10px;
+}
+
+input.error, textarea.error  {
+    border: 3px solid red;
+}
+label.error {
+    display: none !important;
+}
+input[type="checkbox"].error {
+    outline: 2px solid red;
+}
+
+
+
+@media (max-width: 640px){
+    .navbar-header .logo {
+        max-width: 160px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .navbar-toggle {
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .main-menu {
+        width: 100%;
+        border-bottom: 1px solid #e4e8eb;
+    }
+    .navbar-nav>li {
+        display: block;
+    }
+    .navbar-default {
+        background-color: rgba(255, 255, 255, 1);
+    }
+}
