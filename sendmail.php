@@ -3,7 +3,7 @@ session_start();
 require 'include/PHPMailerAutoload.php';
 
 define("HOME", substr($_SERVER['PHP_SELF'], 0, strrpos($_SERVER['PHP_SELF'], "/")+1));
-define("REMITE", "no-reply@tbosolution.com.co");
+define("REMITE", "no-reply@dominio.com");
 define("HOST_MAIL", "smtp.mandrillapp.com");
 define("USER_MAIL", "sysadmin@wikot.com");
 define("PASS_MAIL", "aA89BD-gFBW44VBJGaGdZA");
@@ -21,8 +21,7 @@ if(isset($_POST)):
     $mensaje = $_POST['mensaje'];
 
 	$email_destino = array();
-	//$email_destino[] = "oscar.canchica@wikot.com";
-	$email_destino[] = "manager@tbosolution.com.co";
+	$email_destino[] = "";
 
 	$body = "";
 	$mail = new PHPMailer;
@@ -48,7 +47,7 @@ if(isset($_POST)):
 
     //Con estas pocas líneas iniciamos una conexión con el SMTP. Lo que ahora deberíamos hacer, es configurar el mensaje a enviar, el //From, etc.
     $mail->From = REMITE; // Desde donde enviamos (Para mostrar)
-    $mail->FromName = "TBO - Website";
+    $mail->FromName = "";
 
     //Estas dos líneas, cumplirían la función de encabezado (En mail() usado de esta forma: “From: Nombre <correo@dominio.com>”) de //correo.
     foreach ($email_destino as $emailTo) {
