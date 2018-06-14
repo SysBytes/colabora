@@ -37,7 +37,7 @@ endif;
     <link href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" rel="stylesheet" type="text/css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
 
-    <link href="css/jquery.fullPage.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.fullpage.min.css" rel="stylesheet" type="text/css" />
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/<?php echo empty($modulo)?'home':$modulo;?>.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,500,700" rel="stylesheet">
@@ -55,7 +55,7 @@ endif;
 
     <!-- Esta línea es opcional y sólamente es necesaria en caso de usar la opción `scrollOverflow:true`. -->
     <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
-    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
 
     <script>
         new WOW().init();

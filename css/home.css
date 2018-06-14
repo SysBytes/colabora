@@ -72,7 +72,8 @@ h1{
     padding-right: 15%;
 }
 
-.content-btn {
+.content-btn,
+.link-btn {
     font-family: 'Raleway', sans-serif;
     font-size: 17px;
     font-weight: 500;
@@ -81,6 +82,17 @@ h1{
     margin-right: 15px;
     padding-bottom: 10px;
     text-transform: uppercase;
+    cursor: pointer;
+}
+.content {
+    position: absolute;
+    display: none;
+}
+.content p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
 }
 
 /* HOME */
@@ -88,28 +100,92 @@ h1{
 
 }
 
-.section__home .content-btn {
+.section__home .content-btn,
+.section__home .link-btn {
     border-bottom: 2px solid #ef9c2b;
+}
+.section__home .content-btn:hover,
+.section__home .link-btn:hover,
+.section__home .content-btn.active {
+    color: #ef9c2b;
+}
+.section__home .content p {
+    padding: 1% 10%;
+}
+.evento {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.evento-header {
+    border: 1px solid #ffffff;
+}
+.evento-header h3 {
+    background: url("../img/ico-fb.png") no-repeat left center;
+    background-size: contain;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0;
+    padding: 5px 0 5px 28px;
+}
+.evento-content {
+    border: 1px solid #ffffff;
+    max-height: 300px;
+    overflow: scroll;
+    padding: 5px 20px;
+}
+.evento-content li {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ffffff;
+}
+.evento-content .title-evento img {
+    float: left;
+    max-width: 32px;
+    max-height: 32px;
+    margin-top: 5px;
+}
+.evento-content .title-evento p {
+    font-size: 14px;
+    padding: 0 0 0 38px;
+}
+.evento-content .imagen-evento {
+    padding: 0 20px;
 }
 
 /* ESPACIOS */
 .section__space .content-btn {
     border-bottom: 2px solid #47abd6;
 }
+.section__space .content-btn:hover,
+.section__space .content-btn.active {
+   color: #47abd6;
+}
 
 /* CREACIÓN */
 .section__creation .content-btn {
     border-bottom: 2px solid #fd4f00;
+}
+.section__creation .content-btn:hover,
+.section__creation .content-btn.active {
+    color: #fd4f00;
 }
 
 /* COLABORACION */
 .section__colabora .content-btn {
     border-bottom: 2px solid #39ad4a;
 }
+.section__colabora .content-btn:hover,
+.section__colabora .content-btn.active {
+    color: #39ad4a;
+}
 
 /* AGENDAR */
 .section__agendar .content-btn {
     border-bottom: 2px solid #8984c6;
+}
+.section__agendar .content-btn:hover {
+    color: #8984c6;
 }
 
 /* AQUI */
@@ -125,4 +201,9 @@ h1{
     position: absolute;
     z-index: -1;
     top: 0;
+}
+
+.content-btn:hover,
+.content-btn.active {
+    border-bottom: 2px solid #ffffff;
 }
