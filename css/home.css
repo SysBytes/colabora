@@ -84,8 +84,12 @@ h1{
     text-transform: uppercase;
     cursor: pointer;
 }
-.content {
+.container-content {
     position: absolute;
+    width: 100%;
+    margin-top: -10%;
+}
+.content {
     display: none;
 }
 .content p {
@@ -95,11 +99,16 @@ h1{
     color: #ffffff;
 }
 
-/* HOME */
-.section__home {
-
+.section-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    width: 240px;
+    text-align: right;
+    padding-bottom: 10px;
 }
 
+/* HOME */
 .section__home .content-btn,
 .section__home .link-btn {
     border-bottom: 2px solid #ef9c2b;
@@ -130,9 +139,22 @@ h1{
 }
 .evento-content {
     border: 1px solid #ffffff;
-    max-height: 300px;
-    overflow: scroll;
+    max-height: 400px;
+    height: auto;
     padding: 5px 20px;
+    overflow: scroll;
+}
+.evento-content::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+.evento-content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.evento-content::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
 .evento-content li {
     padding-bottom: 15px;
@@ -153,6 +175,8 @@ h1{
     padding: 0 20px;
 }
 
+
+
 /* ESPACIOS */
 .section__space .content-btn {
     border-bottom: 2px solid #47abd6;
@@ -162,6 +186,15 @@ h1{
    color: #47abd6;
 }
 
+.section__space .section-title {
+    color: #47abd6;
+    border-bottom: 2px solid #47abd6;
+}
+
+.planes-content {
+    margin: 10% 0;
+}
+
 /* CREACIÓN */
 .section__creation .content-btn {
     border-bottom: 2px solid #fd4f00;
@@ -169,6 +202,11 @@ h1{
 .section__creation .content-btn:hover,
 .section__creation .content-btn.active {
     color: #fd4f00;
+}
+
+.section__creation .section-title {
+    color: #fd4f00;
+    border-bottom: 2px solid #fd4f00;
 }
 
 /* COLABORACION */

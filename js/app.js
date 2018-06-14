@@ -11,10 +11,28 @@ $(document).ready(function() {
             return;
         }
 
-        $(".content").fadeOut();
+        $(".content").hide();
         $(".content-btn").removeClass("active");
         $(this).addClass("active");
 
         $("#"+data).fadeIn();
+    });
+
+    $("#g-espacios").unitegallery({
+        gallery_theme: "tilesgrid",
+        grid_num_rows: 2,
+        theme_navigation_type:"arrows"
+    });
+
+    $("#g-fotos").unitegallery({
+        gallery_theme: "tilesgrid",
+        grid_num_rows: 2,
+        theme_navigation_type:"arrows"
+    });
+
+    $("#g-videos").unitegallery({
+        gallery_theme: "tilesgrid",
+        grid_num_rows: 2,
+        theme_navigation_type:"arrows"
     });
 });

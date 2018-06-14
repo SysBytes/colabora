@@ -36,6 +36,8 @@ endif;
     <link href="css/remodal-default-theme.css" rel="stylesheet" />
     <link href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" rel="stylesheet" type="text/css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <link href='css/unite-gallery.css' rel='stylesheet' type='text/css' />
+               
 
     <link href="css/jquery.fullpage.min.css" rel="stylesheet" type="text/css" />
     <link href="css/styles.css" rel="stylesheet">
@@ -52,6 +54,8 @@ endif;
     <script src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js" type="text/javascript" ></script>
     <script src="//cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js" type="text/javascript" ></script>    
     <script src="js/wow.min.js" type="text/javascript"></script>
+    <script src='js/unitegallery.min.js' type='text/javascript'></script>
+    <script src='js/tilesgrid/ug-theme-tilesgrid.js' type='text/javascript'></script>
 
     <!-- Esta línea es opcional y sólamente es necesaria en caso de usar la opción `scrollOverflow:true`. -->
     <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
