@@ -1,6 +1,12 @@
-
-
 $(document).ready(function() {
+
+    $(".btn-menu").click(function(){
+        $('.menu').show("slide", { direction: "right" }, 500);
+    });
+
+    $(".btn-close").click(function(){
+        $('.menu').hide("slide", { direction: "right" }, 500);
+    });
 
     $('#fullpage').fullpage();
 
@@ -8,7 +14,6 @@ $(document).ready(function() {
     if(ancho < 768){
         $.fn.fullpage.setResponsive(true);
     }
-    
     $(".content-btn").click(function(){
         var data = $(this).attr("data-src");
 

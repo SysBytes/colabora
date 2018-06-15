@@ -2,6 +2,9 @@
     <div class="container-logo">
         <img src="img/logo-colabora.png" alt="Co+Labora" title="Co+Labora" class="img-responsive">
     </div>
+    <div class="nav">
+        <img src="img/ico-menu.png" class="btn-menu" title="Menú" alt="Menú Principal">
+    </div>
 </div>
 <div id="fullpage" class="container-fluid">
     <div class="section section__home bg-1-1" data-anchor="home">
