@@ -35,4 +35,11 @@ $(document).ready(function() {
         grid_num_rows: 2,
         theme_navigation_type:"arrows"
     });
+
+    $("#g-empresas").unitegallery({
+        gallery_theme: "tilesgrid",
+        grid_num_rows: 2,
+        theme_navigation_type:"arrows",
+        lightbox_type: null
+    });
 });

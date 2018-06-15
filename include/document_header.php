@@ -38,7 +38,6 @@ endif;
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
     <link href='css/unite-gallery.css' rel='stylesheet' type='text/css' />
                
-
     <link href="css/jquery.fullpage.min.css" rel="stylesheet" type="text/css" />
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/<?php echo empty($modulo)?'home':$modulo;?>.css" rel="stylesheet">

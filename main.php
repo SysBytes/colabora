@@ -8,16 +8,16 @@
         <?php include "home.php"; ?>
     </div>
     <div class="section section__space bg-2-1" data-anchor="space">
-        <?php include "espacios.php"; ?>
+        <?php include "page_spaces.php"; ?>
     </div>
     <div class="section section__creation bg-3-1" data-anchor="creation">
-        <?php include "creacion.php"; ?>
+        <?php include "page_create.php"; ?>
     </div>
     <div class="section section__colabora bg-4-1" data-anchor="colaborar">
-        <?php include "colaborar.php"; ?>
+        <?php include "page_colabora.php"; ?>
     </div>
     <div class="section section__agendar bg-5-1" data-anchor="agendar">
-        <?php include "agendar.php"; ?>
+        <?php include "page_contact.php"; ?>
     </div>
     <div class="section section__aqui bg-6" data-anchor="aqui">
         <div class="map" id="map"></div>

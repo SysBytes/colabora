@@ -106,6 +106,7 @@ h1{
     width: 240px;
     text-align: right;
     padding-bottom: 10px;
+    text-transform: uppercase;
 }
 
 /* HOME */
@@ -203,7 +204,6 @@ h1{
 .section__creation .content-btn.active {
     color: #fd4f00;
 }
-
 .section__creation .section-title {
     color: #fd4f00;
     border-bottom: 2px solid #fd4f00;
@@ -216,6 +216,16 @@ h1{
 .section__colabora .content-btn:hover,
 .section__colabora .content-btn.active {
     color: #39ad4a;
+}
+.section__colabora .section-title {
+    color: #39ad4a;
+    border-bottom: 2px solid #39ad4a;
+}
+.section__colabora .quienes-text {
+    padding: 10%;
+}
+.section__colabora .ug-tile {
+    background-color: transparent !important;
 }
 
 /* AGENDAR */
