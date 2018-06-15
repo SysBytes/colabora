@@ -21,7 +21,7 @@
     </div>
     <div class="section section__aqui bg-6" data-anchor="aqui">
         <div class="map" id="map"></div>
-        <?php include "aqui.php"; ?>
+        <?php include "page_here.php"; ?>
     </div>
 </div>
 <script>

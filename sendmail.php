@@ -3,7 +3,7 @@ session_start();
 require 'include/PHPMailerAutoload.php';
 
 define("HOME", substr($_SERVER['PHP_SELF'], 0, strrpos($_SERVER['PHP_SELF'], "/")+1));
-define("REMITE", "no-reply@dominio.com");
+define("REMITE", "no-reply@colaboraspace.com");
 define("HOST_MAIL", "smtp.mandrillapp.com");
 define("USER_MAIL", "sysadmin@wikot.com");
 define("PASS_MAIL", "aA89BD-gFBW44VBJGaGdZA");
@@ -17,25 +17,27 @@ if(isset($_POST)):
 	$nombre = $_POST['nombre'];
     $apellido = $_POST['apellido'];
     $telefono = $_POST['telefono'];
+    $fecha = $_POST['fecha'];
     $email = $_POST['email'];
     $mensaje = $_POST['mensaje'];
 
 	$email_destino = array();
-	$email_destino[] = "";
+	$email_destino[] = "sysbytes@gmail.com";
 
 	$body = "";
 	$mail = new PHPMailer;
-    $subject = 'TBO - Contacto';
+    $subject = 'Colabora - Contacto';
     $headers = "MIME-Version: 1.0\r\n";
     $headers .= "Content-type: text/html; charset=utf-8\r\n";
     $headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
-    $headers .= "From: TBO - Website <" . REMITE . ">" . "\r\n";
+    $headers .= "From: Colabora - Website <" . REMITE . ">" . "\r\n";
 
 	$body = file_get_contents("mail.html");
 	$body = str_replace("##NOMBRE##", strtoupper($nombre), $body);
     $body = str_replace("##APELLIDO##", strtoupper($apellido), $body);
     $body = str_replace("##EMAIL##", strtolower($email), $body);
     $body = str_replace("##TELEFONO##", $telefono, $body);
+    $body = str_replace("##FECHA##", $telefono, $fecha);
     $body = str_replace("##MENSAJE##", $mensaje, $body);
     
     $mail->IsSMTP();

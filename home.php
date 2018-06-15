@@ -11,7 +11,7 @@
 				Fomentamos la colaboración entre empresas con espacios dinámicos que estimulan la creatividad e innovación en las personas, buscando la unión y el aporte al crecimiento personal y empresarial.
 			</p>
 		</div>
-		<div class="col-xs-12 col-sm-6">
+		<div class="col-xs-10 col-sm-6">
 			<div class="container-content">
 				<div class="content" id="historia">
 					<p>	
