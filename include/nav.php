@@ -17,9 +17,9 @@
 			</ul>
 			<div class="rrss-menu">
 				<ul>
-					<li><i class="fab fa-facebook-f fa-lg"></i></li>
-					<li><i class="fab fa-twitter fa-lg"></i></li>
-					<li><i class="fab fa-instagram fa-lg"></i></li>
+					<li><a href="https://www.facebook.com/Colabora.space/" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+					<!-- <li><i class="fab fa-twitter fa-lg"></i></li> -->
+					<li><a href="https://www.instagram.com/colabora_space/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></li>
 				</ul>
 			</div>
 		</div>

@@ -7,19 +7,19 @@
     </div>
 </div>
 <div id="fullpage" class="container-fluid">
-    <div class="section section__home bg-1-1" data-anchor="home">
+    <div class="section section__home bg-1-<?php echo $bg;?>" data-anchor="home">
         <?php include "home.php"; ?>
     </div>
-    <div class="section section__space bg-2-1" data-anchor="space">
+    <div class="section section__space bg-2-<?php echo $bg;?>" data-anchor="space">
         <?php include "page_spaces.php"; ?>
     </div>
-    <div class="section section__creation bg-3-1" data-anchor="creation">
+    <div class="section section__creation bg-3-<?php echo $bg;?>" data-anchor="creation">
         <?php include "page_create.php"; ?>
     </div>
-    <div class="section section__colabora bg-4-1" data-anchor="colaborar">
+    <div class="section section__colabora bg-4-<?php echo $bg;?>" data-anchor="colaborar">
         <?php include "page_colabora.php"; ?>
     </div>
-    <div class="section section__agendar bg-5-1" data-anchor="agendar">
+    <div class="section section__agendar bg-5-<?php echo $bg;?>" data-anchor="agendar">
         <?php include "page_contact.php"; ?>
     </div>
     <div class="section section__aqui" data-anchor="aqui">
@@ -33,7 +33,7 @@
         var colabora = {lat: 4.697206, lng: -74.030452};
         var centro = {lat: 4.697364, lng: -74.031495};
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 19,
+            zoom: 17,
             center: centro
         });
 
