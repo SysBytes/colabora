@@ -3,8 +3,8 @@
 		<div class="col-xs-12 col-sm-5 no-padding-left">
 			<h1>Espacios<br>Dinámicos</h1>
 			<ul>
-				<li class="content-btn" data-src="espacios">Espacios</li>
-				<li class="content-btn" data-src="planes">Planes</li>
+				<li class="content-btn" data="espacios">Espacios</li>
+				<li class="content-btn" data="planes">Planes</li>
 			</ul>
 			<p class="content-text">
 				Colabora cuenta con espacios flexibles

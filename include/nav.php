@@ -5,15 +5,15 @@
 	<div class="row">
 		<div class="col-xs-12 col-sm-4 col-sm-offset-8">
 			<ul class="main-menu">
-				<li>¿Quienes Somos?</li>
-				<li>Nuestra Historia</li>
-				<li>Eventos</li>
-				<li>Espacios</li>
-				<li>Planes</li>
-				<li>Galería de Fotos</li>
-				<li>Galería de Videos</li>
-				<li>Empresas en Colabora</li>
-				<li>Agendar Cita</li>
+				<li class="item-menu" link-page="colaborar" data="quienes"><span class="line-4">_</span>&nbsp;¿Quienes Somos?</li>
+				<li class="item-menu" link-page="home" data="historia"><span class="line-1">_</span>&nbsp;Nuestra Historia</li>
+				<li class="item-menu" link-page="home" data="eventos"><span class="line-1">_</span>&nbsp;Eventos</li>
+				<li class="item-menu" link-page="space" data="espacios"><span class="line-2">_</span>&nbsp;Espacios</li>
+				<li class="item-menu" link-page="space" data="planes"><span class="line-2">_</span>&nbsp;Planes</li>
+				<li class="item-menu" link-page="creation" data="galeria_fotos"><span class="line-3">_</span>&nbsp;Galería de Fotos</li>
+				<li class="item-menu" link-page="creation" data="galeria_videos"><span class="line-3">_</span>&nbsp;Galería de Videos</li>
+				<li class="item-menu" link-page="colaborar" data="empresas"><span class="line-4">_</span>&nbsp;Empresas en Colabora</li>
+				<li class="item-menu" link-page="agendar" data=""><span class="line-5">_</span>&nbsp;Agendar Cita</li>
 			</ul>
 			<div class="rrss-menu">
 				<ul>

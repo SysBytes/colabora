@@ -3,8 +3,8 @@
 		<div class="col-xs-12 col-sm-5 no-padding-left">
 			<h1>Colaborar es<br>nuestro verbo</h1>
 			<ul>
-				<li class="content-btn" data-src="quienes">¿Quienes somos?</li>
-				<li class="content-btn" data-src="empresas">Empresas en Colabora</li>
+				<li class="content-btn" data="quienes">¿Quienes somos?</li>
+				<li class="content-btn" data="empresas">Empresas en Colabora</li>
 			</ul>
 			<p class="content-text">
 				En colabora fortalecemos las comunicaciones

@@ -79,11 +79,31 @@ a.link {
 }
 .main-menu li {
     font-family: 'Raleway', sans-serif;
-    font-size: 24px
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 500;
     color: #ffffff;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     text-transform: uppercase;
+    cursor: pointer;
+}
+.main-menu li span {
+    font-size: 26px;
+    line-height: 0;
+}
+.main-menu li .line-1 {
+    color: #ef9c2b;
+}
+.main-menu li .line-2 {
+    color: #47abd6;
+}
+.main-menu li .line-3 {
+    color: #fd4f00;
+}
+.main-menu li .line-4 {
+    color: #39ad4a;
+}
+.main-menu li .line-5 {
+    color: #8984c6;
 }
 .rrss-menu {
     margin-top: 30px;

@@ -3,8 +3,8 @@
 		<div class="col-xs-12 col-sm-5 no-padding-left">
 			<h1>Creación<br>de ideas</h1>
 			<ul>
-				<li class="content-btn" data-src="galeria_fotos">Galeria de Fotos</li>
-				<li class="content-btn" data-src="galeria_videos">Galeria de Videos</li>
+				<li class="content-btn" data="galeria_fotos">Galeria de Fotos</li>
+				<li class="content-btn" data="galeria_videos">Galeria de Videos</li>
 			</ul>
 			<p class="content-text">
 				La comunicación y cooperación facilitan
