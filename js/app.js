@@ -31,6 +31,11 @@ $(document).ready(function() {
         $("#"+data).fadeIn();
     });
 
+    $(".link-btn").click(function(){
+        var page = $(this).attr("data");
+        $.fn.fullpage.moveTo(page);
+    });
+
     $(".item-menu").click(function(){
         var page = $(this).attr("link-page");
         var data = $(this).attr("data");
