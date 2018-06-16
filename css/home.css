@@ -267,7 +267,14 @@ h1{
     width: 100%;
     height: 100vh;
     position: absolute;
-    z-index: -1;
+    
+    top: 0;
+}
+.section__aqui .bg {
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    width: 50%;
+    height: 100vh;
     top: 0;
 }
 

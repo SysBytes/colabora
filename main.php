@@ -22,8 +22,9 @@
     <div class="section section__agendar bg-5-1" data-anchor="agendar">
         <?php include "page_contact.php"; ?>
     </div>
-    <div class="section section__aqui bg-6" data-anchor="aqui">
+    <div class="section section__aqui" data-anchor="aqui">
         <div class="map" id="map"></div>
+        <div class="bg"></div>
         <?php include "page_here.php"; ?>
     </div>
 </div>
