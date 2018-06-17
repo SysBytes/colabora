@@ -994,23 +994,23 @@ img.ug-sepia-effect{
 }
 
 .ug-bullets.ug-skin-default.ug-bullets-gray .ug-bullet{ 
-	background-image:url('../skins/default/tile_bullets_gray.png');
+	background-image:url('../img/tile_bullets_gray.png');
 }
 
 .ug-bullets.ug-skin-default.ug-bullets-blue .ug-bullet{ 
-	background-image:url('../skins/default/tile_bullets_blue.png');
+	background-image:url('../img/tile_bullets_blue.png');
 }
 
 .ug-bullets.ug-skin-default.ug-bullets-brown .ug-bullet{ 
-	background-image:url('../skins/default/tile_bullets_brown.png');
+	background-image:url('../img/tile_bullets_brown.png');
 }
 
 .ug-bullets.ug-skin-default.ug-bullets-green .ug-bullet{ 
-	background-image:url('../skins/default/tile_bullets_green.png');
+	background-image:url('../img/tile_bullets_green.png');
 }
 
 .ug-bullets.ug-skin-default.ug-bullets-red .ug-bullet{ 
-	background-image:url('../skins/default/tile_bullets_red.png');
+	background-image:url('../img/tile_bullets_red.png');
 }
 
 .ug-button-tile-navigation{

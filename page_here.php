@@ -14,7 +14,7 @@
 					(57) (1) 303 4376<br>
 					<br>
 					<span class="bold">Email:</span><br>
-					host@colaboraspace.com
+					<a href="mailto:host@colaboraspace.com">host@colaboraspace.com</a>
 				</p> 
 			</div>
 		</div>

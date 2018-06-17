@@ -74,7 +74,10 @@ $(document).ready(function() {
         lightbox_type: null
     });
 
-    $('.date').datepicker();
+    $('.date').datepicker({ 
+        minDate: 0,
+        dateFormat: 'dd-mm-yy'
+    });
 
     $(".btn-send").click(function(){
 
@@ -89,6 +92,12 @@ $(document).ready(function() {
             var dataString = 'nombre='+ name + '&apellido='+ apellido +'&telefono=' + telefono + '&email=' + email  + '&fecha=' + fecha + '&mensaje=' + mensaje;
             
             /*alert (dataString);return false;*/
+            $("body").css({"overflow-y":"hidden"});
+            var alto = $(window).height();
+            $("body").append("<div id='pre-load-web'><div id='imagen-load'><img src='img/loader.gif' alt=''/><h1>Realizando Validación</h1></div></div>"); 
+            $("#pre-load-web").css({"height":alto+"px"}); 
+            $("#imagen-load").css({"margin-top":(alto/2)-30+"px"});
+
             $.ajax({
                 type: "POST",
                 url: "sendmail.php",

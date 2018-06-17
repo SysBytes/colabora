@@ -32,7 +32,9 @@
 				<div class="content" id="planes">
 					<h3 class="section-title">Planes</h3>
 					<div class="planes-content">
-						<img src="img/tabla-precios.png" alt="Precio de Planes" title="Precio de Planes" class="img-responsive">
+						<a data-fancybox="gallery" href="img/tabla-precios.png">
+							<img src="img/tabla-precios.png" alt="Precio de Planes" title="Precio de Planes" class="img-responsive">
+						</a>
 					</div>
 				</div>
 			</div>

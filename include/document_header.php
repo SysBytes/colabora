@@ -16,13 +16,13 @@ endif;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <META http-equiv="CACHE-CONTROL" content="NO-CACHE">
-    <meta name="description" content="">
+    <meta name="description" content="Fomentamos la colaboración entre empresas con espacios dinámicos que estimulan la creatividad e innovación en las personas, buscando la unión y el aporte al crecimiento personal y empresarial.">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Co+Labora - Productividad+Creatividad</title>
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <meta property="og:url"         content="http://www." />
     <meta property="og:title"       content="Co+labora, Productividad+Creatividad" />
-    <meta property="og:description" content="" />
+    <meta property="og:description" content="Fomentamos la colaboración entre empresas con espacios dinámicos que estimulan la creatividad e innovación en las personas, buscando la unión y el aporte al crecimiento personal y empresarial." />
     <meta property="og:image"       content="" />
     <meta property="autor"          content="Wikot Techonologies. http://www.wikot.com" />
 
@@ -34,10 +34,7 @@ endif;
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
     <!-- Other CSS file -->
-    <link href="css/remodal.css" rel="stylesheet" />
-    <link href="css/remodal-default-theme.css" rel="stylesheet" />
-    <link href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
     <link href='css/unite-gallery.css' rel='stylesheet' type='text/css' />
                
     <link href="css/jquery.fullpage.min.css" rel="stylesheet" type="text/css" />
@@ -52,20 +49,14 @@ endif;
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
     <!-- Other Library -->
-    <script src="js/remodal.js" type="text/javascript" ></script>
-    <script src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js" type="text/javascript" ></script>
-    <script src="//cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js" type="text/javascript" ></script>    
-    <script src="js/wow.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js" type="text/javascript" ></script>
     <script src='js/unitegallery.min.js' type='text/javascript'></script>
     <script src='js/tilesgrid/ug-theme-tilesgrid.js' type='text/javascript'></script>
 
     <!-- Esta línea es opcional y sólamente es necesaria en caso de usar la opción `scrollOverflow:true`. -->
     <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
     <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
-
-    <script>
-        new WOW().init();
-    </script>
 
     <!-- CUSTOM -->
     <script src="js/app.js" type="text/javascript" ></script>

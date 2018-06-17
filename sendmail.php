@@ -14,30 +14,30 @@ exit;*/
 
 if(isset($_POST)):
 
-	$nombre = $_POST['nombre'];
-    $apellido = $_POST['apellido'];
-    $telefono = $_POST['telefono'];
-    $fecha = $_POST['fecha'];
-    $email = $_POST['email'];
-    $mensaje = $_POST['mensaje'];
+	$nombre    = $_POST['nombre'];
+    $apellido  = $_POST['apellido'];
+    $telefono  = $_POST['telefono'];
+    $fecha     = $_POST['fecha'];
+    $email     = $_POST['email'];
+    $mensaje   = $_POST['mensaje'];
 
 	$email_destino = array();
-	$email_destino[] = "sysbytes@gmail.com";
+	$email_destino[] = "host@colaboraspace.com";
 
 	$body = "";
 	$mail = new PHPMailer;
     $subject = 'Colabora - Contacto';
     $headers = "MIME-Version: 1.0\r\n";
     $headers .= "Content-type: text/html; charset=utf-8\r\n";
-    $headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
-    $headers .= "From: Colabora - Website <" . REMITE . ">" . "\r\n";
+    $headers .= "X-Mailer: PHP/".phpversion()."\r\n";
+    $headers .= "From: Colabora - Website <".REMITE.">"."\r\n";
 
 	$body = file_get_contents("mail.html");
 	$body = str_replace("##NOMBRE##", strtoupper($nombre), $body);
     $body = str_replace("##APELLIDO##", strtoupper($apellido), $body);
     $body = str_replace("##EMAIL##", strtolower($email), $body);
     $body = str_replace("##TELEFONO##", $telefono, $body);
-    $body = str_replace("##FECHA##", $telefono, $fecha);
+    $body = str_replace("##FECHA##", $fecha, $body);
     $body = str_replace("##MENSAJE##", $mensaje, $body);
     
     $mail->IsSMTP();
@@ -49,7 +49,7 @@ if(isset($_POST)):
 
     //Con estas pocas líneas iniciamos una conexión con el SMTP. Lo que ahora deberíamos hacer, es configurar el mensaje a enviar, el //From, etc.
     $mail->From = REMITE; // Desde donde enviamos (Para mostrar)
-    $mail->FromName = "";
+    $mail->FromName = "ColaboraSpace";
 
     //Estas dos líneas, cumplirían la función de encabezado (En mail() usado de esta forma: “From: Nombre <correo@dominio.com>”) de //correo.
     foreach ($email_destino as $emailTo) {

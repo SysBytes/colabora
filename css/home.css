@@ -304,6 +304,51 @@ h1{
     }
 }
 @media (max-width: 767px){
+    .bg-1-1{
+        background-image: url(../img/bg/bg-1-1-m.jpg);
+    }
+    .bg-1-2{
+        background-image: url(../img/bg/bg-1-2-m.jpg);
+    }
+    .bg-1-3{
+        background-image: url(../img/bg/bg-1-3-m.jpg);
+    }
+    .bg-2-1{
+        background-image: url(../img/bg/bg-2-1-m.jpg);
+    }
+    .bg-2-2{
+        background-image: url(../img/bg/bg-2-2-m.jpg);
+    }
+    .bg-2-3{
+        background-image: url(../img/bg/bg-2-3-m.jpg);
+    }
+    .bg-3-1{
+        background-image: url(../img/bg/bg-3-1-m.jpg);
+    }
+    .bg-3-2{
+        background-image: url(../img/bg/bg-3-2-m.jpg);
+    }
+    .bg-3-3{
+        background-image: url(../img/bg/bg-3-3-m.jpg);
+    }
+    .bg-4-1{
+        background-image: url(../img/bg/bg-4-1-m.jpg);
+    }
+    .bg-4-2{
+        background-image: url(../img/bg/bg-4-2-m.jpg);
+    }
+    .bg-4-3{
+        background-image: url(../img/bg/bg-4-3-m.jpg);
+    }
+    .bg-5-1{
+        background-image: url(../img/bg/bg-5-1-m.jpg);
+    }
+    .bg-5-2{
+        background-image: url(../img/bg/bg-5-2-m.jpg);
+    }
+    .bg-5-3{
+        background-image: url(../img/bg/bg-5-3-m.jpg);
+    }
     .container-logo {
         margin-top: 20px;
     }
