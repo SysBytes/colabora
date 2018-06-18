@@ -294,7 +294,7 @@ h1{
     top: 0;
 }
 .section__aqui .bg {
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.7);
     position: absolute;
     width: 50%;
     height: 100vh;
@@ -401,15 +401,16 @@ h1{
     }
 }
 @media (max-width: 480px){
+    .container-logo {
+        max-width: 180px;
+    }
     .fp-tableCell {
         padding-top: 18%;
     }
 }
 
 @media (max-width: 320px){
-    .container-logo {
-        max-width: 180px;
-    }
+    
     h1 {
         font-size: 40px;
     }

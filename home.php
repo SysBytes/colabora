@@ -78,6 +78,6 @@
 		</div>
 	</div>
 </div>
-<div class="scroll-down">
+<div class="scroll-down hidden-xs">
 	<a href="#space">Scroll Down</a>
 </div>
