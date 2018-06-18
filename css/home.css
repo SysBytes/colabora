@@ -123,6 +123,10 @@ h1{
 .section__home .content p {
     padding: 1% 10%;
 }
+.section__home .section-title {
+    color: #ef9c2b;
+    border-bottom: 2px solid #ef9c2b;
+}
 .evento {
     background-color: rgba(0, 0, 0, 0.7);
 }

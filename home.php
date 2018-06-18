@@ -14,6 +14,7 @@
 		<div class="col-xs-10 col-sm-6">
 			<div class="container-content">
 				<div class="content" id="historia">
+					<h3 class="section-title">Nuestra Historia</h3>
 					<p>	
 						Somos un centro de trabajo e inspiración que ofrece
 						diversidad de espacios con los más altos estándares
