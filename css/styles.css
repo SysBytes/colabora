@@ -126,8 +126,10 @@ a.link {
 }
 
 .footer .rrss {
+    font-size: 16px;
     border-top: 1px solid;
     padding-top: 10px;
+    padding-right: 70px;
 }
 
 .container-call {
@@ -135,6 +137,28 @@ a.link {
     z-index: 997;
     bottom: 150px;
     right: 0;
+}
+
+.container-call a {
+    display: block;
+    margin-bottom: 10px;
+}
+.privacidad {
+    position: fixed;
+    z-index: 997;
+    bottom: 40px;
+    right: 10%;
+    color: #fff;
+}
+
+.privacidad a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.privacidad a:hover {
+    text-decoration: none;
 }
 
 input.error, textarea.error  {
@@ -146,6 +170,9 @@ label.error {
 input[type="checkbox"].error {
     outline: 2px solid red;
 }
+.form-control {
+    border-radius: 0px;
+}
 
 @media (max-width: 767px){
     .nav {
@@ -155,5 +182,9 @@ input[type="checkbox"].error {
     .menu .m-close {
         right: 20px;
         top: 20px;
+    }
+    .footer {
+        bottom: 0px;
+        width: 90%;
     }
 }

@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="col-xs-12 col-sm-5 no-padding-left">
 			<h1>Todos son<br>Bienvenidos</h1>
-			<ul>
+			<ul class="submenu">
 				<li class="content-btn">Agendar Cita</li>
 			</ul>
 			<p class="content-text">
@@ -33,10 +33,10 @@
 		                <div class="form-group">
 		                    <div class="row">
 		                        <div class="col-xs-10 col-sm-6 contact__left">
-		                            <input type="email" class="form-control" id="email" required placeholder="*Correo Electrónico">
+		                            <input type="text" class="form-control" id="telefono" name="telefono" required placeholder="*Teléfono">
 		                        </div>
 		                        <div class="col-xs-10 col-sm-6 contact__right">
-		                            <input type="text" class="form-control" id="telefono" name="telefono" required placeholder="*Teléfono">
+		                        	<input type="email" class="form-control" id="email" required placeholder="*Correo Electrónico">
 		                        </div>
 		                    </div>
 		                </div>

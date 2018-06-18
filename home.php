@@ -2,13 +2,13 @@
 	<div class="row">
 		<div class="col-xs-12 col-sm-5 no-padding-left">
 			<h1>Bienvenido<br>a Co+labora</h1>
-			<ul>
+			<ul class="submenu">
 				<li class="link-btn" data="agendar" >Agendar Cita</li>
 				<li class="content-btn" data="historia">Nuestra Historia</li>
 				<li class="content-btn" data="eventos">Eventos</li>
 			</ul>
 			<p class="content-text">
-				Fomentamos la colaboración entre empresas con espacios dinámicos que estimulan la creatividad e innovación en las personas, buscando la unión y el aporte al crecimiento personal y empresarial.
+				Fomentamos la colaboración entre empresas con espacios dinámicos que estimulan la creatividad e innovación en las personas, buscando la unión y el aporte al crecimiento entre emprendedores y empresas.
 			</p>
 		</div>
 		<div class="col-xs-10 col-sm-6">
@@ -77,4 +77,7 @@
 			</div>
 		</div>
 	</div>
+</div>
+<div class="scroll-down">
+	<a href="#space">Scroll Down</a>
 </div>

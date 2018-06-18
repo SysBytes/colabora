@@ -52,26 +52,55 @@ $(document).ready(function() {
     $("#g-espacios").unitegallery({
         gallery_theme: "tilesgrid",
         grid_num_rows: 2,
-        theme_navigation_type:"arrows"
+        theme_navigation_type:"arrows",
+        tile_enable_shadow: false,
+        tile_border_width: 1,
+        lightbox_type: "compact",
+        lightbox_slider_image_border: false,
+        lightbox_slider_image_shadow: false,
+        lightbox_show_numbers: false,
+        lightbox_slider_control_zoom: false
     });
 
     $("#g-fotos").unitegallery({
         gallery_theme: "tilesgrid",
         grid_num_rows: 2,
-        theme_navigation_type:"arrows"
+        theme_navigation_type:"arrows",
+        tile_enable_shadow: false,
+        tile_border_width: 1,
+        lightbox_type: "compact",
+        lightbox_slider_image_border: false,
+        lightbox_slider_image_shadow: false,
+        lightbox_show_numbers: false,
+        lightbox_slider_control_zoom: false
     });
 
     $("#g-videos").unitegallery({
         gallery_theme: "tilesgrid",
         grid_num_rows: 2,
-        theme_navigation_type:"arrows"
+        theme_navigation_type:"arrows",
+        tile_enable_shadow: false,
+        tile_border_width: 1,
+        lightbox_type: "compact",
+        lightbox_slider_image_border: false,
+        lightbox_slider_image_shadow: false,
+        lightbox_show_numbers: false,
+        lightbox_slider_control_zoom: false
     });
 
     $("#g-empresas").unitegallery({
         gallery_theme: "tilesgrid",
         grid_num_rows: 2,
         theme_navigation_type:"arrows",
-        lightbox_type: null
+        lightbox_type: null,
+        tile_enable_shadow: false,
+        tile_border_width: 1,
+        lightbox_type: "compact",
+        lightbox_slider_image_border: false,
+        lightbox_slider_image_shadow: false,
+        lightbox_show_numbers: false,
+        lightbox_slider_control_zoom: false,
+        tile_as_link:true,
     });
 
     $('.date').datepicker({ 
@@ -120,6 +149,15 @@ $(document).ready(function() {
             $.fn.fullpage.setResponsive(true);
         } else {
             $.fn.fullpage.setResponsive(false);
+            $('.menu').css("top", "0px");
+        }
+    });
+
+    $(window).scroll(function() {
+        var ancho = $(window).width();
+        if(ancho < 768){
+            var alto = $(window).scrollTop();
+            $('.menu').css("top", alto+"px");
         }
     });
 });

@@ -63,16 +63,20 @@ h1{
     font-size: 69px;
     font-weight: 700;
     color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .content-text {
     font-family: 'Raleway', sans-serif;
     font-size: 17px;
+    line-height: 27px;
     font-weight: 300;
     color: #ffffff;
-    padding-right: 15%;
+    padding-right: 10%;
 }
-
+.submenu {
+    margin-bottom: 20px;
+}
 .content-btn,
 .link-btn {
     font-family: 'Raleway', sans-serif;
@@ -95,7 +99,8 @@ h1{
 }
 .content p {
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
+    line-height: 27px;
     font-weight: 300;
     color: #ffffff;
 }
@@ -108,6 +113,7 @@ h1{
     text-align: right;
     padding-bottom: 10px;
     text-transform: uppercase;
+    margin-left: 5%;
 }
 
 /* HOME */
@@ -121,7 +127,7 @@ h1{
     color: #ef9c2b;
 }
 .section__home .content p {
-    padding: 1% 10%;
+    padding: 3% 10% 3% 5%;
 }
 .section__home .section-title {
     color: #ef9c2b;
@@ -180,7 +186,20 @@ h1{
 .evento-content .imagen-evento {
     padding: 0 20px;
 }
+.scroll-down {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+}
 
+.scroll-down a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    display: block;
+}
 
 
 /* ESPACIOS */
@@ -227,7 +246,7 @@ h1{
     border-bottom: 2px solid #39ad4a;
 }
 .section__colabora .quienes-text {
-    padding: 10%;
+    padding: 10% 10% 10% 5%;;
 }
 .section__colabora .ug-tile {
     background-color: transparent !important;
@@ -384,5 +403,20 @@ h1{
 @media (max-width: 480px){
     .fp-tableCell {
         padding-top: 18%;
+    }
+}
+
+@media (max-width: 320px){
+    .container-logo {
+        max-width: 180px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .footer {
+        margin-left: -15px;
+    }
+    .container-call {
+        bottom: 40px;
     }
 }
