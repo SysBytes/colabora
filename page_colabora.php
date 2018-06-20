@@ -24,26 +24,26 @@
 				<div class="content" id="empresas">
 					<h3 class="section-title">Empresas en Colabora</h3>
 					<div id="g-empresas" style="display:none;">
-						<a href="http://www.google.com.co" target="_blank">
-							<img alt="Empresa 1 Title" src="img/empresas/empresa-1.png" data-image="img/empresas/empresa-1.png" data-description="Empresa 1 Description">
+						<a href="http://www.ex-fin.com" target="_blank">
+							<img alt="X-Fin" src="img/empresas/x-fin.com.png" data-image="img/empresas/x-fin.com.png" data-description="X-Fin">
 						</a>
-						<a href="http://www.google.com.co" target="_blank">
-							<img alt="Empresa 2 Title" src="img/empresas/empresa-2.png" data-image="img/empresas/empresa-2.png" data-description="Empresa 2 Description">
+						<a href="http://www.traka-colombia.com/" target="_blank">
+							<img alt="Jonyco" src="img/empresas/jonyco.png" data-image="img/empresas/jonyco.png" data-description="Jonyco">
 						</a>
-						<a href="http://www.google.com.co" target="_blank">
-							<img alt="Empresa 3 Title" src="img/empresas/empresa-3.png" data-image="img/empresas/empresa-3.png" data-description="Empresa 3 Description">
+						<a href="http://mundanoburo.com/" target="_blank">
+							<img alt="Mundano" src="img/empresas/mundano.png" data-image="img/empresas/mundano.png" data-description="Mundano">
 						</a>
-						<a href="http://www.google.com.co" target="_blank">
-							<img alt="Empresa 5 Title" src="img/empresas/empresa-5.png" data-image="img/empresas/empresa-5.png" data-description="Empresa 5 Description">
+						<a href="https://www.icasas.com.co/" target="_blank">
+							<img alt="iCasas" src="img/empresas/icasas.png" data-image="img/empresas/icasas.png" data-description="iCasas">
 						</a>
-						<a href="http://www.google.com.co" target="_blank">
-							<img alt="Empresa 6 Title" src="img/empresas/empresa-6.png" data-image="img/empresas/empresa-6.png" data-description="Empresa 6 Description">
+						<a href="https://www.facebook.com/deliz.comidas.1" target="_blank">
+							<img alt="Gastro Innova" src="img/empresas/gastro_innova.png" data-image="img/empresas/gastro_innova.png" data-description="Gastro Innova">
 						</a>
-						<a href="http://www.google.com.co" target="_blank">
-							<img alt="Empresa 4 Title" src="img/empresas/empresa-4.png" data-image="img/empresas/empresa-4.png" data-description="Empresa 4 Description">
+						<a href="http://www.factura1.com.co/" target="_blank">
+							<img alt="Factura 1" src="img/empresas/factura1.png" data-image="img/empresas/factura1.png" data-description="Factura 1">
 						</a>
-						<a href="http://www.google.com.co" target="_blank">
-							<img alt="Empresa 7 Title" src="img/empresas/empresa-7.png" data-image="img/empresas/empresa-7.png" data-description="Empresa 7 Description">
+						<a href="https://www.wikot.com" target="_blank">
+							<img alt="Wikot" src="img/empresas/wikot.png" data-image="img/empresas/wikot.png" data-description="Wikot">
 						</a>
 					</div>
 				</div>
