@@ -13,7 +13,7 @@
 		<div class="col-xs-12 col-sm-7">
 			<div class="container-content">
 				<div class="content" id="quienes">
-					<h3 class="section-title">¿Quienes somos?</h3>
+					<h3 class="section-title">¿Quiénes somos?</h3>
 					<p class="quienes-text">	
 						Somos una empresa de servicio encargada de brindar diversidad de espacios con los más altos estándares de diseño y ambientes laborales, que buscan promover bienestar, experiencias, crear sociedades, ideas y tecnologías aplicadas a una gestión empresarial comprometida con el entorno al que pertenece.
 					</p>
