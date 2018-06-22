@@ -11,7 +11,7 @@
 				<li class="item-menu" link-page="space" data="planes"><span class="line-2">_</span>&nbsp;Planes</li>
 				<li class="item-menu" link-page="creation" data="galeria_fotos"><span class="line-3">_</span>&nbsp;Galería de Fotos</li>
 				<li class="item-menu" link-page="creation" data="galeria_videos"><span class="line-3">_</span>&nbsp;Galería de Videos</li>
-				<li class="item-menu" link-page="colaborar" data="quienes"><span class="line-4">_</span>&nbsp;¿Quienes Somos?</li>
+				<li class="item-menu" link-page="colaborar" data="quienes"><span class="line-4">_</span>&nbsp;¿Quiénes Somos?</li>
 				<li class="item-menu" link-page="colaborar" data="empresas"><span class="line-4">_</span>&nbsp;Nuestra Comunidad</li>
 				<li class="item-menu" link-page="agendar" data=""><span class="line-5">_</span>&nbsp;Agendar Cita</li>
 			</ul>
