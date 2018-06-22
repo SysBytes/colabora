@@ -23,6 +23,7 @@ if(isset($_POST)):
 
 	$email_destino = array();
 	$email_destino[] = "host@colaboraspace.com";
+    $email_destino[] = "sysbytes@gmail.com";
 
 	$body = "";
 	$mail = new PHPMailer;
