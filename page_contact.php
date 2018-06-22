@@ -41,7 +41,7 @@
 		                    </div>
 		                </div>
 		                <div class="form-group col-xs-6 col-sm-5">
-		                    <input type="text" class="form-control date" id="fecha" name="fecha" required placeholder="*Fecha" autocomplete="off">
+		                    <input type="text" class="form-control fecha" id="fecha" name="fecha" required placeholder="*Fecha" autocomplete="off">
 		                </div>
 		                <div class="form-group col-xs-12">
 		                    <textarea class="form-control" id="mensaje" name="mensaje" rows="7" required placeholder="*Interes"></textarea>

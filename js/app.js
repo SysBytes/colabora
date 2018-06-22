@@ -105,9 +105,9 @@ $(document).ready(function() {
         tile_as_link:true
     });
 
-    $('.date').datepicker({ 
+    $('.fecha').datepicker({ 
         minDate: 0,
-        dateFormat: 'dd-mm-yy'
+        dateFormat: 'dd/mm/yy'
     });
 
     $(".btn-send").click(function(){

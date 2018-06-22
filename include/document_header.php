@@ -2,7 +2,6 @@
 session_start();
 include "include/config.inc.php";
 
-
 if(!empty($_SERVER['QUERY_STRING'])):
     @list($modulo, $registro) = @explode("/", $_SERVER['QUERY_STRING']);
 endif;
