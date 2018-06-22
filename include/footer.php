@@ -9,7 +9,7 @@
 				<div class="footer">
 					<div class="rrss">
 						<ul>
-							<li>Siguenos:</li>
+							<li>Síguenos:</li>
 							<li><a href="https://www.facebook.com/Colabora.space/" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a></li>
 							<li><a href="https://twitter.com/colabora_space" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
 							<li><a href="https://www.instagram.com/colabora_space/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></li>

@@ -3,7 +3,7 @@
 		<div class="col-xs-12 col-sm-5 no-padding-left">
 			<h1>Colaborar es<br>nuestro verbo</h1>
 			<ul class="submenu">
-				<li class="content-btn" data="quienes">¿Quienes somos?</li>
+				<li class="content-btn" data="quienes">¿Quiénes somos?</li>
 				<li class="content-btn" data="empresas">Nuestra Comunidad</li>
 			</ul>
 			<p class="content-text">
