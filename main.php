@@ -1,6 +1,6 @@
 <div class="container">
     <div class="container-logo">
-        <img src="img/logo-colabora.png" alt="Co+Labora" title="Co+Labora" class="img-responsive">
+        <a href="#home"><img src="img/logo-colabora.png" alt="Co+Labora" title="Co+Labora" class="img-responsive"></a>
     </div>
     <div class="nav">
         <img src="img/ico-menu.png" class="btn-menu" title="Menú" alt="Menú Principal">

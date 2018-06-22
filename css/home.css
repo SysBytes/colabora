@@ -73,7 +73,7 @@ h1{
     font-weight: 300;
     color: #ffffff;
     padding-right: 10%;
-    text-align: justify;
+    text-align: left;
 }
 .submenu {
     margin-bottom: 20px;
@@ -306,6 +306,15 @@ h1{
 .content-btn:hover,
 .content-btn.active {
     border-bottom: 2px solid #ffffff;
+}
+
+.copyright {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    margin-bottom: -30px;
 }
 
 @media (max-width: 1199px){

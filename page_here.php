@@ -14,11 +14,8 @@
 				<br>
 				<span class="bold">Email:</span><br>
 				<a href="mailto:host@colaboraspace.com">host@colaboraspace.com</a>
-				<br>
-				<br>
-				<br>
-				Copyright &copy; Todos los derechos reservados por <span class="bold">Colabora</span>
 			</p> 
+			<p class="copyright">Copyright &copy; Todos los derechos reservados por <span class="bold">Colabora</span></p>
 		</div>
 	</div>
 </div>
