@@ -4,12 +4,10 @@
 			<h1>Colaborar es<br>nuestro verbo</h1>
 			<ul class="submenu">
 				<li class="content-btn" data="quienes">¿Quienes somos?</li>
-				<li class="content-btn" data="empresas">Empresas en Colabora</li>
+				<li class="content-btn" data="empresas">Nuestra Comunidad</li>
 			</ul>
 			<p class="content-text">
-				En colabora fortalecemos las comunicaciones
-				entre empresas y así mismo el emprendimiento
-				mutuo.
+				Unirse pero no para estar juntos sino para hacer cosas juntos.
 			</p> 
 		</div>
 		<div class="col-xs-12 col-sm-7">
@@ -41,6 +39,9 @@
 						</a>
 						<a href="http://www.factura1.com.co/" target="_blank">
 							<img alt="Factura 1" src="img/empresas/factura1.png" data-image="img/empresas/factura1.png" data-description="Factura 1">
+						</a>
+						<a href="https://www.relixwater.com/" target="_blank">
+							<img alt="Relixwater" src="img/empresas/relix.png" data-image="img/empresas/relix.png" data-description="Relixwater">
 						</a>
 						<a href="https://www.wikot.com" target="_blank">
 							<img alt="Wikot" src="img/empresas/wikot.png" data-image="img/empresas/wikot.png" data-description="Wikot">

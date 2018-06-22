@@ -8,7 +8,7 @@
 				<li class="content-btn" data="eventos">Eventos</li>
 			</ul>
 			<p class="content-text">
-				Fomentamos la colaboración entre empresas con espacios dinámicos que estimulan la creatividad e innovación en las personas, buscando la unión y el aporte al crecimiento entre emprendedores y empresas.
+				Fomentamos la colaboración con espacios dinámicos que estimulan la creatividad e innovación en las personas, buscando la unión y el aporte al crecimiento entre emprendedores y empresas.
 			</p>
 		</div>
 		<div class="col-xs-10 col-sm-6">

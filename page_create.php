@@ -7,9 +7,7 @@
 				<li class="content-btn" data="galeria_videos">Galeria de Videos</li>
 			</ul>
 			<p class="content-text">
-				La comunicación y cooperación facilitan
-				las creación de ideas y el crecimiento
-				de las empresas 
+				¿De qué sirven las ideas si no se pueden compartir?
 			</p> 
 		</div>
 		<div class="col-xs-12 col-sm-7">
@@ -31,7 +29,26 @@
 				<div class="content" id="galeria_videos">
 					<h3 class="section-title">Videos</h3>
 					<div id="g-videos" style="display:none;">
-						<img alt="John Wick"
+						<a href="https://www.youtube.com/channel/UCA95l4Ua7ld6O0QyGaryOYw" target="_blank">
+							<img alt="Colabora Youtube Channel" src="img/galeria/video-1.jpg" data-image="img/galeria/video-1.jpg">
+						</a>
+						<a href="https://www.youtube.com/channel/UCA95l4Ua7ld6O0QyGaryOYw" target="_blank">
+							<img alt="Colabora Youtube Channel" src="img/galeria/video-2.jpg" data-image="img/galeria/video-2.jpg">
+						</a>
+						<a href="https://www.youtube.com/channel/UCA95l4Ua7ld6O0QyGaryOYw" target="_blank">
+							<img alt="Colabora Youtube Channel" src="img/galeria/video-3.jpg" data-image="iimg/galeria/video-3.jpg">
+						</a>
+						<a href="https://www.youtube.com/channel/UCA95l4Ua7ld6O0QyGaryOYw" target="_blank">
+							<img alt="Colabora Youtube Channel" src="img/galeria/video-4.jpg" data-image="img/galeria/video-4.jpg">
+						</a>
+						<a href="https://www.youtube.com/channel/UCA95l4Ua7ld6O0QyGaryOYw" target="_blank">
+							<img alt="Colabora Youtube Channel" src="img/galeria/video-5.jpg" data-image="img/galeria/video-5.jpg">
+						</a>
+						<a href="https://www.youtube.com/channel/UCA95l4Ua7ld6O0QyGaryOYw" target="_blank">
+							<img alt="Colabora Youtube Channel" src="img/galeria/video-6.jpg" data-image="img/galeria/video-6.jpg">
+						</a>
+
+						<!-- <img alt="John Wick"
 						     data-type="youtube"  src="img/galeria/video-1.jpg"
 						     data-image="img/galeria/video-1.jpg"
 						     data-description="Jon Wick Trailer"
@@ -65,7 +82,7 @@
 						     data-type="youtube"  src="img/galeria/video-6.jpg"
 						     data-image="img/galeria/video-6.jpg"
 						     data-description="Dracula Untold Trailer"
-						     data-videoid="_2aWqecTTuE" style="display:none">
+						     data-videoid="_2aWqecTTuE" style="display:none"> -->
 					</div>
 				</div>
 			</div>

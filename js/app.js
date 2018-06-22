@@ -72,7 +72,8 @@ $(document).ready(function() {
         lightbox_slider_image_border: false,
         lightbox_slider_image_shadow: false,
         lightbox_show_numbers: false,
-        lightbox_slider_control_zoom: false
+        lightbox_slider_control_zoom: false,
+        lightbox_show_textpanel: false
     });
 
     $("#g-videos").unitegallery({
@@ -85,7 +86,8 @@ $(document).ready(function() {
         lightbox_slider_image_border: false,
         lightbox_slider_image_shadow: false,
         lightbox_show_numbers: false,
-        lightbox_slider_control_zoom: false
+        lightbox_slider_control_zoom: false,
+        tile_as_link:true
     });
 
     $("#g-empresas").unitegallery({
@@ -100,7 +102,7 @@ $(document).ready(function() {
         lightbox_slider_image_shadow: false,
         lightbox_show_numbers: false,
         lightbox_slider_control_zoom: false,
-        tile_as_link:true,
+        tile_as_link:true
     });
 
     $('.date').datepicker({ 
