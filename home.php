@@ -42,7 +42,8 @@
 							<h3>Co+Labora work space</h3>
 						</div>
 						<div class="evento-content">
-							<ul>
+							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FColabora.space%2F&tabs=events&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId=273275069550158" width="100%" height="184" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+							<!-- <ul>
 								<li>
 									<div class="title-evento">
 										<img src="img/avatar-colabora.png">
@@ -70,7 +71,7 @@
 										<img src="img/img-evento.jpg" class="img-responsive">
 									</div>
 								</li>
-							</ul>
+							</ul> -->
 						</div>
 					</div>
 				</div>
