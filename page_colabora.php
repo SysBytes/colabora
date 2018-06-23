@@ -7,7 +7,7 @@
 				<li class="content-btn" data="empresas">Nuestra Comunidad</li>
 			</ul>
 			<p class="content-text">
-				Unirse pero no para estar juntos sino para hacer cosas juntos.
+				Unirse, pero no para estar juntos, sino para hacer cosas juntos.
 			</p> 
 		</div>
 		<div class="col-xs-12 col-sm-7">
