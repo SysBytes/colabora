@@ -113,6 +113,36 @@ a.link {
     color: #6e6e6e;
     padding-right: 20px;
 }
+/* Section 1*/
+.section-1 {
+    background: url(../img/bg-1.jpg) center center;
+    background-size: cover;
+}
+.logo-container {
+    position: absolute;
+    z-index: 999;
+    max-width: 180px;
+    top: 30px;
+}
+.book-container {
+
+}
+.book-container img {
+    margin: auto;
+    max-height: 85vh;
+}
+.footer-1 {
+    background-color: #373736;
+    height: 50px;
+    margin-top: -40px;
+}
+.scroll-down {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+
+
 .footer {
     position: fixed;
     z-index: 997;

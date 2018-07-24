@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <META http-equiv="CACHE-CONTROL" content="NO-CACHE">
+    <meta name="description" content="">
+    <title>BID</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <meta property="og:url"         content="" />
+    <meta property="og:title"       content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image"       content="" />
+    <meta property="autor"          content="Wikot Techonologies. http://www.wikot.com" />
+
+    <!-- Bootstrap -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+               
+    <link href="css/jquery.fullpage.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,500,700" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
+
+    <!-- CUSTOM -->
+    <script src="js/app.js" type="text/javascript" ></script>
+
+</head>
+<body>
+	<div id="fullpage" class="container-fluid">
+		<div class="section section-1" data-anchor="home">
+			<div class="container">
+				<div class="logo-container">
+					<img src="img/logo-bid.png" class="img-responsive">
+				</div>
+				<div class="book-container">
+					<img src="img/book.png" class="img-responsive">
+				</div>
+			</div>
+			<div class="footer-1">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6"></div>
+						<div class="col-sm-6"></div>
+					</div>
+				</div>
+			</div>
+			<div class="scroll-down">
+				<img src="img/ico-mouse.png" class="img-responsive">
+			</div>
+		</div>
+
+	    <div class="section section__home bg-1-<?php echo $bg;?>" data-anchor="home2">
+	        <?php include "home.php"; ?>
+	    </div>
+	    <div class="section section__space bg-2-<?php echo $bg;?>" data-anchor="space">
+	        <?php include "page_spaces.php"; ?>
+	    </div>
+	    <div class="section section__creation bg-3-<?php echo $bg;?>" data-anchor="creation">
+	        <?php include "page_create.php"; ?>
+	    </div>
+	    <div class="section section__colabora bg-4-<?php echo $bg;?>" data-anchor="colaborar">
+	        <?php include "page_colabora.php"; ?>
+	    </div>
+	    <div class="section section__agendar bg-5-<?php echo $bg;?>" data-anchor="agendar">
+	        <?php include "page_contact.php"; ?>
+	    </div>
+	    <div class="section section__aqui" data-anchor="aqui">
+	        <div class="map" id="map"></div>
+	        <div class="bg"></div>
+	        <?php include "page_here.php"; ?>
+	    </div>
+	</div>
+</body>
+</html>
